@@ -63,7 +63,12 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Congratulations!</h1>
+
+            <!-- Updated the message based on the jira task assigned-->
+            <!-- MYT-13 Change the home page welcome message -->
+            <!--<h1>Congratulations!</h1>-->
+            <h1>Greetings!</h1>
+
             <h3>${greeter.greeting}</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
